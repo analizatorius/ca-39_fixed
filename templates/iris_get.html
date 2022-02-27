@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris</title>
+
+    <body>
+    <h>{{ prediction|upper}}</h>
+    <br/>
+    <img src="{{ image }}">
+    </body>
+
+{% endblock %}
